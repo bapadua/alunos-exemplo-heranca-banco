@@ -1,7 +1,7 @@
 package br.com.satander.model;
 
 public abstract class Conta implements ContaBancaria {
-    //protected somente as classes do mesmo pacote podem enchergar, ou seja, na mesma pasta
+    //protected somente as classes do mesmo pacote podem enxergar, ou seja, na mesma pasta
     protected double saldo;
     protected String numeroConta;
     protected Cliente titular;
